@@ -1,0 +1,49 @@
+.about-me {
+	background-color: $white;
+	margin-top: 1.875rem;
+	padding: 2.5rem;
+	color: $text-color;
+	border-radius: 0.3125rem;
+	@include box-shadow(0 2px 0 rgba($black, 0.1));
+
+	.about-me-desc {
+
+		.about-me-title {
+			color: $shushi;
+			font-size: 1.125rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			border-bottom: 1px solid lighten($text-color, 20%);
+			padding-bottom: 1.25rem;
+			margin-bottom: 1.875rem;
+		}
+
+		.site-author-name {
+			color: darken($text-color, 20%);
+			font-size: 1.875rem;
+			font-family: $font-family-extra;
+		}
+	}
+
+	.about-me-avatar {
+		text-align: center;
+
+		@media screen and (max-width: 62rem) {
+			margin-bottom: 1.25rem;
+		}
+
+		img {
+			display: inline-block;
+			border-radius: 50%;
+  		box-shadow: 0 0 0 8px lighten($text-color, 20%);
+		}
+
+		.shadow {
+			width: 9rem;
+			height: 1.25rem;
+			@include background-image(radial-gradient($text-color, transparent 70px));
+			margin: 2rem auto 0;
+			border-radius: 60%;
+		}
+	}
+}

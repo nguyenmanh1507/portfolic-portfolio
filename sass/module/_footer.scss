@@ -1,0 +1,17 @@
+#footer {
+	padding: 2.5rem 0;
+	color: $text-color;
+	font-size: 0.8125rem;
+
+	.footer-info-2 {
+		text-align: right;
+	}
+
+	@media screen and (max-width: 48rem) {
+		text-align: center;
+
+		.footer-info-2 {
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,320 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolic</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+    <!-- Main style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+
+      <nav class="navbar navbar-default" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-primary">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-primary">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right rounded-icon">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-6 custom-col-xs">
+            <div class="site-logo">
+              <h1 class="site-title sr-only">Nguyen Manh Portfolio</h1>
+              <a href="#" class="logo">
+                <i class="fa fa-bus fa-3x"></i> <i class="fa fa-bank fa-3x"></i> <i class="fa fa-bell fa-3x"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 custom-col-xs">
+            <form action="/" class="form-inline form-search">
+              <div class="form-group clearfix">
+                <label for="search-input" class="sr-only">Enter search keywork</label>
+                <input type="search" class="search-input form-control" name="s" id="search-input" placeholder="search...">
+              </div>
+              <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+        <!-- /.site-logo -->
+      </div>
+
+    </header>
+    <!-- /#header -->
+
+
+
+
+
+    <!-- Slideshow section -->
+    <div class="container">
+      <div id="slideshow" class="owl-carousel owl-theme">
+ 
+        <div class="item"><img src="images/fullimage1.jpg" alt="The Last of us"></div>
+        <div class="item"><img src="images/fullimage2.jpg" alt="GTA V"></div>
+        <div class="item"><img src="images/fullimage3.jpg" alt="Mirror Edge"></div>
+       
+      </div>
+    </div>
+
+
+
+
+
+    <!-- Site Description -->
+    <div class="site-description">
+      <h2 class="text-center description">
+        Welcome to my <span>Portfolic</span> WordPress portfolio theme
+      </h2>
+    </div>
+    <!-- /.site-description -->
+    
+
+
+
+
+    <!-- filterable portfolio -->
+    <div class="container">
+      <div class="row">
+
+        <ul class="filter-button clearfix">
+          <li><a href="#" class="active" data-filter="*">All</a></li>  
+          <li><a href="#" data-filter=".apps">Apps</a></li> 
+          <li><a href="#" data-filter=".freebies">Freebies</a></li> 
+          <li><a href="#" data-filter=".icons">Icons</a></li> 
+        </ul>
+        <!-- /.filter-button -->
+        
+        <div class="portfolios">
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item apps freebies">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-1.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item icons">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-2.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item apps icons">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-3.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item icons freebies">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-4.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item freebies icons apps">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-5.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item apps icons">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-6.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item freebies">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-7.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3 filter-item freebies icons">
+            <figure class="portfolio">
+              <a href="#"><img src="images/portfolios/portf-8.png" alt=""></a>
+              <figcaption>
+                <h1 class="portfolio-title"><a href="#">Giraffes</a></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, placeat, neque. Harum, voluptate exercitationem, necessitatibus quasi similique architecto ut! Sed.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+        </div>
+        <!-- /.portfolios -->
+
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+
+    <!-- About me section -->
+    <div class="container">
+      <section class="about-me">
+        
+        <div class="row">
+
+          <div class="about-me-avatar col-md-5 col-md-push-7">
+            
+            <img src="images/avatar.jpg" alt="avatar">
+            <div class="shadow"></div>
+
+          </div>
+
+          <div class="about-me-desc col-md-7 col-md-pull-5">
+            <p class="about-me-title">
+              About Me
+            </p>
+            <!-- /.about-me-title -->
+            
+            <h1 class="site-author-name">
+              My name is Emrah Demirag
+            </h1>
+            <!-- /.site-author-name -->
+            
+            <p class="site-author-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, facilis quis necessitatibus inventore aspernatur qui earum sed rem omnis labore ad iste harum aliquid dolor, ducimus quo perspiciatis! Dicta, facere.
+            </p>
+            <!-- /.site-author-description -->
+          </div>
+
+
+        </div>
+        <!-- /.row -->
+
+      </section>
+      <!-- /.about-me -->
+    </div>
+    <!-- /.container -->
+    
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" itemscope itemtype="http://schema.org/WPFooter">
+      
+      <div class="container">
+        <div class="row">
+          
+          <div class="footer-info-1 col-sm-6">
+            <p>DESIGNED BY <a href="http://uipixels.com" target="_blank">EMRAH DEMIRAG</a></p>
+          </div>
+
+          <div class="footer-info-2 col-sm-6">
+            <p>&copy; 2015 - Allright Reserved.</p>
+          </div>
+
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+
+    </footer>
+    <!-- /#footer -->
+    
+
+    <!-- Javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
